@@ -18,9 +18,9 @@
   </div>
 
   <script>
-    const name = encodeURIComponent("Shashank Kumar");
-    const upi = "9369933827@sbi";
-    const amt = "30.00";
+    const name = encodeURIComponent("ARMIN ALI SARKAR");
+    const upi = "7384821545@rbl";
+    const amt = "100";
     const txnId = crypto.randomUUID().replace(/-/g, '').substring(0, 10);
 
     document.getElementById('gpayLink').href = `tez://upi/pay?pa=${upi}&pn=${name}&tr=${txnId}&tn=${txnId}&am=${amt}&cu=INR`;
